@@ -1,0 +1,76 @@
+body{
+  background-color: rgb(133, 133, 239);
+  font-family: montserrat;
+  color: rgb(50,50,50);
+  font-size: 14;
+  font-weight: 300;
+  line-height: 2}
+h1, h2{
+  color: rgb(0, 39, 194);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18;
+  line-height: 3}
+
+.text-align{
+  text-align: center;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.card {
+    background: rgb(195, 195, 246);
+    width: 700px;
+    padding: 30px;
+    margin: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin: 30px auto;
+  }
+a{
+    text-decoration: none;
+    color: rgb(71, 0, 249);
+    font-weight: bold;
+    font-size: 30px;
+  }
+#discover_more{
+  text-decoration: none;
+  color: rgb(71, 0, 249);
+  font-weight: bold;
+  font-size: 14px;
+}
+#discover_more:hover{
+  color: orange;
+}
+#profile_picture{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
